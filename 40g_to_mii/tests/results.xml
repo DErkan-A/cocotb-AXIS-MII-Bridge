@@ -1,0 +1,11 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1615979773" />
+    <testcase name="run_test_001" classname="40g_to_mii_cocotb" time="0.2351093292236328" sim_time_ns="803.201" ratio_time="3416.2872339106802">
+      <failure />
+    </testcase>
+    <testcase name="run_test_002" classname="40g_to_mii_cocotb" time="6.732245683670044" sim_time_ns="62422.401" ratio_time="9272.151364204343">
+      <failure />
+    </testcase>
+  </testsuite>
+</testsuites>
