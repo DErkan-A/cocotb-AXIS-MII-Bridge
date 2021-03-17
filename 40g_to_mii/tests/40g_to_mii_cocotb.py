@@ -229,7 +229,7 @@ def cycle_pause():
 def size_list():
     data_width = STREAM_DATA_WIDTH
     number_bytes = data_width // 8
-    return list(range(1, 16))
+    return list(range(1, 32))
 
 
 def incrementing_payload(length):
