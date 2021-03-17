@@ -11,8 +11,8 @@ VERILOG_SOURCES =$(CWD)/../hdl/bits256_divider.v
 VERILOG_SOURCES +=$(CWD)/../hdl/fifo_async_netlist.v
 VERILOG_SOURCES +=$(CWD)/../hdl/ready_generator_mii.v
 VERILOG_SOURCES +=$(CWD)/../hdl/wrapper.v
-VERILOG_SOURCES +=$(CWD)/../Xilinx/glbl.v
-COMPILE_ARGS = -y $(CWD)/../Xilinx/unisims/ -s glbl
+VERILOG_SOURCES +=C:/Xilinx/Vivado/2018.1/data/verilog/src/glbl.v
+COMPILE_ARGS = -y C:/Xilinx/Vivado/2018.1/data/verilog/src/unisims/ -s glbl
 
 TOPLEVEL = g40_2_mii
 MODULE = 40g_to_mii_cocotb
